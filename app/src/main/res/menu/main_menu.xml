@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+  <group android:checkableBehavior="single">
+      <item android:title="Top Stories" android:id="@+id/news_headlines_id"/>
+      <item android:title="Business" android:id="@+id/business_news_id"/>
+      <item android:title="Sports" android:id="@+id/sports_news_id"/>
+      <item android:title="Travel" android:id="@+id/travel_news_id"/>
+      <item android:title="Lifestyle" android:id="@+id/lifestyle_news_id" />
+  </group>
+</menu>
